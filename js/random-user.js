@@ -11,6 +11,7 @@ const displayUser = (users) => {
     <img src="${users[0].picture.large}" alt="" />
     <p>${users[0].name.first}</p>
     <p><small>${users[0].location.street.name}, ${users[0].location.city}</small></p>
+    <button onclick="loadUser()"> Load User</button>
 
     `
 }
